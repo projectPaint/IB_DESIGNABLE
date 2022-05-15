@@ -16,6 +16,7 @@
 		5EC59ABC2830A15E005E8D40 /* IB_DESIGNABLETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC59ABB2830A15E005E8D40 /* IB_DESIGNABLETests.swift */; };
 		5EC59AC62830A15F005E8D40 /* IB_DESIGNABLEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC59AC52830A15F005E8D40 /* IB_DESIGNABLEUITests.swift */; };
 		5EC59AC82830A15F005E8D40 /* IB_DESIGNABLEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC59AC72830A15F005E8D40 /* IB_DESIGNABLEUITestsLaunchTests.swift */; };
+		5EC59AD52830A56E005E8D40 /* ButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC59AD42830A56E005E8D40 /* ButtonCustom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5EC59AC12830A15F005E8D40 /* IB_DESIGNABLEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IB_DESIGNABLEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC59AC52830A15F005E8D40 /* IB_DESIGNABLEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IB_DESIGNABLEUITests.swift; sourceTree = "<group>"; };
 		5EC59AC72830A15F005E8D40 /* IB_DESIGNABLEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IB_DESIGNABLEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EC59AD42830A56E005E8D40 /* ButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5EC59AA62830A155005E8D40 /* SceneDelegate.swift */,
 				5EC59AA82830A155005E8D40 /* ViewController.swift */,
 				5EC59AAA2830A155005E8D40 /* Main.storyboard */,
+				5EC59AD42830A56E005E8D40 /* ButtonCustom.swift */,
 				5EC59AAD2830A15E005E8D40 /* Assets.xcassets */,
 				5EC59AAF2830A15E005E8D40 /* LaunchScreen.storyboard */,
 				5EC59AB22830A15E005E8D40 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EC59AD52830A56E005E8D40 /* ButtonCustom.swift in Sources */,
 				5EC59AA92830A155005E8D40 /* ViewController.swift in Sources */,
 				5EC59AA52830A155005E8D40 /* AppDelegate.swift in Sources */,
 				5EC59AA72830A155005E8D40 /* SceneDelegate.swift in Sources */,
@@ -445,6 +449,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +478,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
